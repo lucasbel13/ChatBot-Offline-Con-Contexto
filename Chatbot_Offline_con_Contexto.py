@@ -18,7 +18,7 @@ def conectar_db():
     return mysql.connect(
         host="localhost",
         user="root",
-        password="Independiente31",
+        password="Contraseña",
         database="chatbot",
         auth_plugin="mysql_native_password",  # Usar mysql_native_password para evitar problemas de autenticación
         charset="utf8mb4"  # Especifica el charset para soportar emojis y otros caracteres Unicode
